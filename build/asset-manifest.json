@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3b369e9f.css",
+    "main.js": "/static/js/main.601863a2.js",
+    "static/js/453.880a14c5.chunk.js": "/static/js/453.880a14c5.chunk.js",
+    "static/media/calorieslogo.png": "/static/media/calorieslogo.fdbb91fd18159d89f568.png",
+    "index.html": "/index.html",
+    "main.3b369e9f.css.map": "/static/css/main.3b369e9f.css.map",
+    "main.601863a2.js.map": "/static/js/main.601863a2.js.map",
+    "453.880a14c5.chunk.js.map": "/static/js/453.880a14c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b369e9f.css",
+    "static/js/main.601863a2.js"
+  ]
+}

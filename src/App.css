@@ -1,0 +1,191 @@
+/*Itay Vekselbaum, Dor Bergel, Eyal Avni*/
+
+.App {
+    border-radius: 10px;
+    margin: 5% auto;
+    height: 750px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    color: white;
+}
+
+.AddCalForm {
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0 1.5rem;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    box-shadow: 0px 0px 0px 2px rgba(118, 171, 174, 1), -8px -8px 0px 0px rgba(118, 171, 174, 1);
+}
+
+.CalList {
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0 1.5rem;
+    width: 65%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
+    box-shadow: 0px 0px 0px 2px rgba(118, 171, 174, 1), -8px -8px 0px 0px rgba(118, 171, 174, 1);
+}
+
+.half-box {
+    padding: 2%;
+}
+
+.right-box {
+    height: 500px;
+    width: 95%;
+}
+
+.row {
+    margin: 20px 0;
+    display: flex;
+}
+
+.full-btn {
+    margin-top: 15px;
+    width: inherit;
+}
+
+.cal-lst {
+    height: 65%;
+    overflow-y: scroll;
+}
+
+.cal-ticket {
+    margin: 10px 5px 0 0;
+}
+
+.cal-sum {
+    display: inherit;
+    margin-bottom: 10px;
+}
+
+h3 {
+    display: inline-block;
+}
+
+.span-category {
+    margin-left: 10px;
+    color: gray;
+}
+
+.span-description {
+    display: block;
+}
+
+.CalorieListFilter {
+    margin-right: 1rem;
+}
+
+.calorie-filters-div {
+    border: 1px solid red;
+}
+
+.calorieList-filter-outline {
+    margin-left: 10px;
+}
+
+.MonthFilter {
+    width: 20ch;
+    height: 4ch;
+}
+
+
+.input {
+    position: relative;
+}
+
+.input__label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: calc(0.5rem * 0.75) calc(0.5rem * .5);
+    margin: calc(0.5rem * 0.75 + 3px) calc(0.5rem * .5);
+    white-space: nowrap;
+    transform: translate(0, 0);
+    transform-origin: 0 0;
+    background: #191919;
+    transition: transform 120ms ease-in;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.input__field {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border: 3px solid #63E9C8;
+    padding: calc(0.5rem * 1.5) 0.5rem;
+    color: currentColor;
+    background: transparent;
+    border-radius: 4px;
+
+    &:focus,
+    &:not(:placeholder-shown) {
+        & + .input__label {
+            transform: translate(.25rem, -65%) scale(.8);
+            color: #63E9C8;
+        }
+    }
+}
+
+.AllFilterOutline {
+    border: 2px solid #63E9C8;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.ToggleBtn {
+}
+
+.ToggleBtn:hover {
+    background-color: #6FF9D7 !important;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.45) inset;
+    color: black;
+}
+
+.Navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #121212;
+    border-bottom: #212529;
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+    text-align: center;
+    z-index: 9999;
+}
+
+.logo {
+    width: 350px;
+    padding: 0.5rem;
+}
+
+#all-filter {
+    font-size: large;
+    height: 58px;
+    border: 2px solid #63E9C8;
+    color: white;
+}
+
+#all-filter-check-icon {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #63E9C8;
+    width: 24px;
+    height: 24px;
+}
